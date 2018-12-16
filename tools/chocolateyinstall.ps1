@@ -4,8 +4,8 @@ $ErrorActionPreference = 'Stop'; # stop on all errors
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   PackageName = 'pantheon'
-  Url64bit = 'https://consensys.bintray.com/pegasys-repo/pantheon-0.8.2.zip'
-  Checksum64 = '9636ecb0d559a179ffaec4c283a4bd00319c8d744e3b0a7d0db7deee809238f0'
+  Url64bit = 'https://consensys.bintray.com/pegasys-repo/pantheon-0.8.3.zip'
+  Checksum64 = '48f5fdf7e1f8a7e460ecb86cbf3b8ac45c188af9d8b973e2d9ceab8d57b82a25'
   ChecksumType64 = 'sha256'
   UnzipLocation= $toolsDir
 }
@@ -13,7 +13,7 @@ Install-ChocolateyZipPackage  @packageArgs
 
 $binArgs = @{
   Name = 'pantheon'
-  Path = "$toolsDir\pantheon-0.8.2\bin\pantheon.bat"
+  Path = "$toolsDir\pantheon-0.8.3\bin\pantheon.bat"
 }
 
 Install-BinFile @binArgs
