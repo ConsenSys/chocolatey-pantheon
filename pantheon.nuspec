@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pantheon</id>
-    <version>0.9.1</version>
+    <version>1.0</version>
     <owners>Rob Dawson/rojotek</owners>
     <packageSourceUrl>https://github.com/PegaSysEng/chocolatey-pantheon</packageSourceUrl>
     <title>Pantheon (Install)</title>
@@ -24,20 +24,15 @@
 Pantheon is an enterprise-grade Java-based, Apache 2.0 licensed Ethereum client.
 
 User and reference documentation for Pantheon available on the Wiki includes:
-* [Overview](https://github.com/PegaSysEng/pantheon/wiki/Overview)
-* [Starting Pantheon](https://github.com/PegaSysEng/pantheon/wiki/Starting-Pantheon)
-* [Pantheon CLI Syntax](https://github.com/PegaSysEng/pantheon/wiki/Pantheon-CLI-Syntax)
-* [JSON-RPC API](https://github.com/PegaSysEng/pantheon/wiki/JSON-RPC-API)
+* [Overview](https://docs.pantheon.pegasys.tech/en/stable/)
+* [Getting Started](https://docs.pantheon.pegasys.tech/en/stable/Getting-Started/Getting-Started/)
+* [Pantheon CLI Syntax](https://docs.pantheon.pegasys.tech/en/stable/Reference/Pantheon-CLI-Syntax/)
+* [JSON-RPC API](https://docs.pantheon.pegasys.tech/en/stable/Reference/JSON-RPC-API/)
 </description>
     <releaseNotes>
 For detailed changes see:
-[Pantheon 0.9 changelog](https://github.com/PegaSysEng/pantheon/blob/5e741c8e539952b892265c24e7b4f48e1eae6f4c/CHANGELOG.md)
+[Pantheon 1.0 changelog](https://github.com/PegaSysEng/pantheon/blob/5c559834b371e2784b7b619e168bc92939b18a6d/CHANGELOG.md)
 
-The biggest change between 0.8.x and 0.9 are significant changes to the commandline.
-If you have been using 0.8.x, please refer to the changelog above for details.
-
-Additionally the chocolately build has changed to use openjdk 11, and include a dependancy on the 
-C runtime libraries.  With the openjdk 11 dependancy you will find that the JAVA_HOME environment variable will be set to this path on install
     </releaseNotes> 
     <dependencies>
       <dependency id="openjdk" version="11.0" />
