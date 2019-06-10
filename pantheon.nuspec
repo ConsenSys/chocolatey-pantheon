@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>pantheon</id>
-    <version>1.0.1</version>
+    <version>1.1.2</version>
     <owners>Rob Dawson/rojotek</owners>
     <packageSourceUrl>https://github.com/PegaSysEng/chocolatey-pantheon</packageSourceUrl>
     <title>Pantheon (Install)</title>
@@ -31,11 +31,11 @@ User and reference documentation for Pantheon available on the Wiki includes:
 </description>
     <releaseNotes>
 For detailed changes see:
-[Pantheon 1.0.1 changelog](https://github.com/PegaSysEng/pantheon/blob/996773f1a6689e01f4c97cfcaf6fad816a010064/CHANGELOG.md)
+[Pantheon 1.1.2 changelog](https://github.com/PegaSysEng/pantheon/blob/7d9fdab1fb97f84afa6f8ac79ea22dd6c647a6c8/CHANGELOG.md)
 
     </releaseNotes> 
     <dependencies>
-      <dependency id="openjdk" version="11.0" />
+      <dependency id="openjdk11" version="11.0" />
       <dependency id="vcredist140"/>
     </dependencies>
   </metadata>
